@@ -11,3 +11,4 @@
 #endif
 
 
+3. 创建子目录项目 qt5-test05  子项目 qt5-test05/test5
