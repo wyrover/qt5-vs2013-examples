@@ -1,0 +1,12 @@
+#ifndef QT5TEST04_GLOBAL_H
+#define QT5TEST04_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QT5TEST04_LIBRARY)
+#  define QT5TEST04SHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define QT5TEST04SHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QT5TEST04_GLOBAL_H
